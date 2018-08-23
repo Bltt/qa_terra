@@ -1,3 +1,11 @@
+variable "projectid" {
+    default = ""
+}
+
+variable "credentials" {
+    default = "~/.gcp/terraform_key.json"
+}
+
 variable "name" {
     type = "string"
     default = "default"

@@ -1,4 +1,6 @@
 name = "jenkins"
+projectid = "jenkins-server-214214"
+credentials = "~/.gcp/jenkins_key.json"
 packages = [ 
 	"wget",
 	"git",
