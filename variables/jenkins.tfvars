@@ -7,9 +7,11 @@ packages = [
 	"java"
 ]
 tags = [
-    "jenkins"
+    "jenkins-firewall"
+]
+allowed_port = [
+	"8080"
 ]
 scripts = [
-    "scripts/setup_vim",
     "scripts/install_jenkins"
     ]
