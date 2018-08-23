@@ -11,7 +11,7 @@ tags = [
 	"pyserver-firewall"
 	]
 scripts = [
-    "scripts/install_py_http_server"
+    "scripts/install_pyserver"
     ]
 allowed_port = [
 	"9000"
