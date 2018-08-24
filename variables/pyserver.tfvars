@@ -1,6 +1,4 @@
 name = "pyserver"
-credentials = "~/.gcp/terraform_key.json"
-projectid = "python-server-214214"
 packages = [ 
 	"wget",
 	"git",
