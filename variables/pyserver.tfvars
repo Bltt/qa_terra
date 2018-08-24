@@ -1,16 +1,8 @@
 name = "pyserver"
-packages = [ 
-	"wget",
-	"git",
-	"unzip",
-	"vim"
-]
+image = "mark-centos-1535107036"
 tags = [
 	"pyserver-firewall"
 	]
-scripts = [
-    "scripts/install_pyserver"
-    ]
 allowed_port = [
 	"9000"
 	]

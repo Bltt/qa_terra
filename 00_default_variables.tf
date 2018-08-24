@@ -56,7 +56,7 @@ variable "private_key" {
 
 variable "scripts" {
     default = [
-    	"scripts/setup_vim"
+    	""
 	]
 }
 
